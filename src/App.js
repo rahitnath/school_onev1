@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import { MyFunction } from './JSFiles/AppJs';
+// import logo from './logo.svg';
+import HCV from './JSFiles/Greet';
 import './App.css';
 
 function App() {
   return (
-      <MyFunction />
+      <div className="App">
+        <HCV className="header"></HCV>
+      </div>
   );
 }
 
