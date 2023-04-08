@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  background-color: black;
+  background-image: url('../src/Resource/unicornBG.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* opacity: 50%; */
+  height: 50em;
+  width: 100%;
+  
 }
 
 .App-logo {
@@ -13,16 +22,16 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #edd8f9;
   /* min-height: 100vh; */
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   /* align-items: center; */
   /* justify-content: center; */
-  font-size: calc(10px + 2vmin);
-  color: rgb(120, 120, 120);
-}/*  */
+  /* font-size: calc(10px + 2vmin); */
+  /* color: rgb(120, 120, 120); */
+/* }  */
 
 .App-link {
   color: #61dafb;
